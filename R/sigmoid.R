@@ -7,7 +7,24 @@
 #' @param inverse use the inverse of the method (reverses)
 #' @param SoftMax use SoftMax preprocessing
 #' @param ... arguments to pass on the method
+#' @examples 
+#' # create input vector
+#' a <- seq(-10,10)
 #' 
+#' # use sigmoid with default standard logistic
+#' ( b <- sigmoid(a) )
+#' 
+#' # show shape
+#' plot(b)
+#' 
+#' # inverse
+#' hist( a - sigmoid(b, inverse=TRUE) )
+#' 
+#' # with SoftMax
+#' ( c <- sigmoid(a, SoftMax=TRUE) )
+#' 
+#' # show difference
+#' hist(b-c)
 
 sigmoid <- function(x, method=c('logistic', 'Gompertz', 'tanh'), inverse=FALSE, SoftMax=FALSE, ...) {
   #  find method
@@ -31,7 +48,7 @@ sigmoid <- function(x, method=c('logistic', 'Gompertz', 'tanh'), inverse=FALSE, 
 }
 
 #' @name logistic
-#' @title Logistic
+#' @title Standard Logistic
 #' @param x input vector
 #' @param k see details
 #' @param x0 see details
@@ -69,12 +86,13 @@ inverse_Gompertz <- function(x)
   
 #' @name SoftMax
 #' @title SoftMax
+#' @importFrom stats sd
 #' @param x input vector
 #' @param lambda see details
 #' @description SoftMax preprocessing
 #' @export
 SoftMax <- function(x, lambda=2)
-  (x-mean(x, na.rm=TRUE)) / ( lambda * (sd(x, na.rm=TRUE)/(2*pi)) )
+  (x-mean(x, na.rm=TRUE)) / ( lambda * (stats::sd(x, na.rm=TRUE)/(2*pi)) )
 
 
 #' @name sigmoid_output_to_derivative

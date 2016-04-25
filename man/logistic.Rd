@@ -2,7 +2,7 @@
 % Please edit documentation in R/sigmoid.R
 \name{logistic}
 \alias{logistic}
-\title{Logistic}
+\title{Standard Logistic}
 \usage{
 logistic(x, k = 1, x0 = 0)
 }
