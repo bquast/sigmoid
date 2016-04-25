@@ -4,8 +4,8 @@
 \alias{sigmoid}
 \title{Sigmoid}
 \usage{
-sigmoid(x, method = c("logistic", "SoftMax", "Gompertz"), inverse = FALSE,
-  SoftMax = FALSE, ...)
+sigmoid(x, method = c("logistic", "Gompertz"), inverse = FALSE,
+  SoftMax = FALSE, k = 1, x0 = 0, a = 1, b = 1, c = 1)
 }
 \arguments{
 \item{x}{numeric vector}

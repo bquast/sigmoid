@@ -5,7 +5,7 @@
 #' @param  x numeric vector
 #' 
 
-sigmoid <- function(x, method=c('logistic', 'SoftMax', 'Gompertz'), inverse=FALSE, SoftMax=FALSE, ...) {
+sigmoid <- function(x, method=c('logistic', 'Gompertz'), inverse=FALSE, SoftMax=FALSE, k=1, x0=0, a=1, b=1, c=1) {
   #  find method
   method <- match.arg(method)
   
@@ -13,11 +13,9 @@ sigmoid <- function(x, method=c('logistic', 'SoftMax', 'Gompertz'), inverse=FALS
     x <- SoftMax(x)
   
   if (method=='logistic' && inverse==FALSE) {
-    return( logistic(x, ...) )
-  } else if (method=='SoftMax') {
-    return(SoftMax(x, ...))
+    return( logistic(x, k=k, x0=x0) )
   } else if (method=='Gompertz' && inverse==FALSE) {
-    return( Gompertz(x, ...) )
+    return( Gompertz(x, a=a, b=b, c=c) )
   } else if (method=='logistic' && inverse==TRUE) {
     return ( logit(x) )
   } else if (method=='Gompertz' && inverse==TRUE) {
@@ -26,6 +24,12 @@ sigmoid <- function(x, method=c('logistic', 'SoftMax', 'Gompertz'), inverse=FALS
   
 }
 
+#' @name logistic
+#' @title Logistic
+#' @param x see details
+#' @param k see details
+#' @param x0 see details
+#' @export
 logistic <- function(x, k=1, x0=0)
   1 / (1+exp( -k*(x-x0) ))
   
