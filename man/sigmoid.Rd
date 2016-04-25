@@ -4,11 +4,19 @@
 \alias{sigmoid}
 \title{Sigmoid}
 \usage{
-sigmoid(x, method = c("logistic", "Gompertz"), inverse = FALSE,
-  SoftMax = FALSE, k = 1, x0 = 0, a = 1, b = 1, c = 1)
+sigmoid(x, method = c("logistic", "Gompertz", "tanh"), inverse = FALSE,
+  SoftMax = FALSE, ...)
 }
 \arguments{
 \item{x}{numeric vector}
+
+\item{method}{type of sigmoid function}
+
+\item{inverse}{use the inverse of the method (reverses)}
+
+\item{SoftMax}{use SoftMax preprocessing}
+
+\item{...}{arguments to pass on the method}
 }
 \description{
 computes sigmoid nonlinearity

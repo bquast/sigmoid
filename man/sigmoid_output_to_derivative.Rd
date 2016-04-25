@@ -7,7 +7,7 @@
 sigmoid_output_to_derivative(x)
 }
 \arguments{
-\item{output}{sigmoid value}
+\item{x}{vector of sigmoid values}
 }
 \description{
 Convert output of sigmoid function to its derivative.

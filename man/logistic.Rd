@@ -7,10 +7,13 @@
 logistic(x, k = 1, x0 = 0)
 }
 \arguments{
-\item{x}{see details}
+\item{x}{input vector}
 
 \item{k}{see details}
 
 \item{x0}{see details}
+}
+\description{
+maps numeric vector using logistic function
 }
 
