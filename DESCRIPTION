@@ -1,5 +1,5 @@
 Package: sigmoid
-Title: Sigmoid
+Title: Sigmoid Functions for Machine Learning
 Version: 0.1.0
 Authors@R: person("Bastiaan", "Quast", email = "bquast@gmail.com", role = c("aut", "cre"))
 Description: Several different sigmoid functions are implemented, including a wrapper function, SoftMax preprocessing and inverse functions.
@@ -8,8 +8,3 @@ Depends:
 License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.1
-Suggests:
-    testthat,
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr

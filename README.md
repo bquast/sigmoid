@@ -7,7 +7,7 @@ Implementation of a Recurrent Neural Network in R.
 
 Installation
 ------------
-The **stable** version can be installed from [CRAN](http://cran.r-project.org/package=sigmoid) using:
+The **stable** version can be installed from [CRAN](https://cran.r-project.org/package=sigmoid) using:
 
 ```r
 install.packages(‘sigmoid’)
