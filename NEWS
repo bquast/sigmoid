@@ -1,0 +1,10 @@
+sigmoid 0.1.0
+===================
+
+* initial release
+
+* implement logistic and Gompertz
+
+* implement inverses (logit and inverse Gompertz)
+
+* implement SoftMax
