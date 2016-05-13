@@ -1,7 +1,7 @@
 rnn
 =======
-[![CRAN Version](http://www.r-pkg.org/badges/version/sigmoid)](http://cran.r-project.org/package=sigmoid)
-[![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/sigmoid?color=brightgreen)](http://cran.r-project.org/package=sigmoid)
+[![CRAN Version](http://www.r-pkg.org/badges/version/sigmoid)](https://cran.r-project.org/package=sigmoid)
+[![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
 
 Implementation of a Recurrent Neural Network in R.
 
