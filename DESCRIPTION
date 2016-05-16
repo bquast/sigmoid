@@ -11,5 +11,6 @@ RoxygenNote: 5.0.1
 Suggests: covr,
     knitr,
     rmarkdown,
-    ggplot2
+    ggplot2,
+    testthat
 VignetteBuilder: knitr
