@@ -1,0 +1,77 @@
+---
+title: "sigmoid"
+author: "Bastiaan Quast"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{sigmoid}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+The `sigmoid()` function returns the sigmoid value of the input(s), by default this is done using the **standard logistic function**.
+
+```{r}
+library(sigmoid)
+sigmoid(3)
+```
+
+Inputs can also be tensors, such as vectors, matrices, or arrays.
+
+```{r}
+sigmoid(-5:5)
+sigmoid( matrix(-3:5,nrow=3) ) # etc.
+```
+
+The `sigmoid()` function is a wrapper, which by default uses the `logistic()` function, it can also use other methods.
+
+```{r}
+sigmoid( -5:5, method='Gompertz' )
+```
+
+These functions can also be accessed directly.
+
+```{r}
+logistic(1:5)
+Gompertz(-1:-5)
+```
+
+These mappings are similar but not identical.
+
+```{r}
+library(ggplot2)
+
+input = -5:5
+
+df = data.frame(input, logistic(input), Gompertz(input))
+
+ggplot(df, aes(input, logistic(input))) + geom_line() +
+  geom_line(aes(input,Gompertz(input)), colour='red')
+```
+
+The wrapper can also apply the inverse of the method, returning the original values.
+
+```{r}
+sigmoid( sigmoid(-5:5), inverse=TRUE )
+```
+
+Which also works for other methods.
+
+```{r}
+sigmoid( sigmoid(-5:5, method='Gompertz'), method='Gompertz', inverse=TRUE )
+```
+
+In addition to this, the SoftMax algorithm can be pre applied.
+
+```{r, results='hold'}
+sigmoid( -3:5 )
+sigmoid( -3:5, SoftMax = TRUE )
+```
+
+Several parameters can be specified (for details see `help(logistic)`, etc.). This can for instance be used to preserve greater entropy.
+
+```{r, message=FALSE}
+x = seq(1,5, by=0.05)
+qplot(sigmoid(x))
+qplot( sigmoid(x, k=sd(x), x0=mean(x) ) )
+```
