@@ -86,7 +86,7 @@ ggplot(df, aes(input, logistic(input))) + geom_line() +
   geom_line(aes(input,Gompertz(input)), colour='red')
 ```
 
-![](README-unnamed-chunk-6-1.png)
+![](README-sigmoid-shape-1.png)
 
 For inverses, additional parameters, SoftMax, etc. see the vignette.
 

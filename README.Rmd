@@ -75,7 +75,7 @@ Gompertz(-1:-5)
 
 These mappings are similar but not identical.
 
-```{r}
+```{r sigmoid-shape}
 library(ggplot2)
 
 input = -5:5
