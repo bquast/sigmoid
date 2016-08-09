@@ -102,3 +102,11 @@ SoftMax <- function(x, lambda=2)
 #' @param x vector of sigmoid values
 sigmoid_output_to_derivative <- function(x)
   x*(1-x)
+
+#' @name tanh_output_to_derivative
+#' @export
+#' @title Tanh Derivative
+#' @description Convert output of tanh function to its derivative.
+#' @param x vector of tanh values
+tanh_output_to_derivative <- function(x)
+  1-x^2
