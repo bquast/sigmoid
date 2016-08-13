@@ -3,6 +3,8 @@ sigmoid 0.2.0
 
 * add vignette
 
+* add tanh derivative
+
 
 
 sigmoid 0.1.0
