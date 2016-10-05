@@ -89,7 +89,7 @@ relu <- function(x)
 #' @param x input vector
 #' @description maps numeric vector using leaky ReLU function
 #' @export
-relu <- function(x)
+relu_leaky <- function(x)
   ifelse(x >= 0, x, 0.01*x)
 
 #' @name SoftPlus
@@ -134,6 +134,13 @@ sigmoid_output_to_derivative <- function(x)
 #' @param x vector of tanh values
 tanh_output_to_derivative <- function(x)
   1-x^2
+
+#' @name relu_output_to_derivative
+#' @title ReLU Derivative
+#' @description Converts output of ReLU function to its derivative.
+#' @param x vector or ReLU values
+relu_output_to_derivative <- function(x)
+  ifelse(x > 0, 1, 0)
 
 #' @name softplus_output_to_derivative
 #' @title SoftPlus Derivative

@@ -2,10 +2,10 @@
 % Please edit documentation in R/sigmoid.R
 \name{leakly_relu}
 \alias{leakly_relu}
-\alias{relu}
+\alias{relu_leaky}
 \title{Leaky Rectified Linear Unit}
 \usage{
-relu(x)
+relu_leaky(x)
 }
 \arguments{
 \item{x}{input vector}
