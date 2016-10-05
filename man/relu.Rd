@@ -7,7 +7,7 @@
 relu(x)
 }
 \arguments{
-\item{input}{vector}
+\item{x}{input vector}
 }
 \description{
 maps numeric vector using ReLU function

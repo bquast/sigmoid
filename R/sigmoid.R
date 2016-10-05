@@ -78,7 +78,7 @@ logit <- function(x)
 
 #' @name relu
 #' @title Rectified Linear Unit
-#' @param input vector
+#' @param x input vector
 #' @description maps numeric vector using ReLU function
 #' @export
 relu <- function(x)
