@@ -92,6 +92,14 @@ relu <- function(x)
 relu <- function(x)
   ifelse(x >= 0, x, 0.01*x)
 
+#' @name SoftPlus
+#' @title SoftPlus
+#' @param x input vector
+#' @description maps numeric input vector using SoftPlus function
+#' @export
+softplus <- function(x)
+  log(1  + exp(x))
+
 #' @name inverse_Gompertz
 #' @title Inverse Gompertz
 #' @param x input vector Gompertz values
