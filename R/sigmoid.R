@@ -134,3 +134,11 @@ sigmoid_output_to_derivative <- function(x)
 #' @param x vector of tanh values
 tanh_output_to_derivative <- function(x)
   1-x^2
+
+#' @name softplus_output_to_derivative
+#' @title SoftPlus Derivative
+#' @description Convert output of SoftPlus function to its derivative.
+#' @param x vector of SoftPlus values
+#' @export
+softplus_output_to_derivative <- function(x)
+  1/(1+exp(-x))
