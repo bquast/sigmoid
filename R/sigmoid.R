@@ -84,6 +84,14 @@ logit <- function(x)
 relu <- function(x)
   ifelse(x >= 0, x, 0)
 
+#' @name leakly_relu
+#' @title Leaky Rectified Linear Unit
+#' @param x input vector
+#' @description maps numeric vector using leaky ReLU function
+#' @export
+relu <- function(x)
+  ifelse(x >= 0, x, 0.01*x)
+
 #' @name inverse_Gompertz
 #' @title Inverse Gompertz
 #' @param x input vector Gompertz values
