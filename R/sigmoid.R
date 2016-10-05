@@ -76,6 +76,14 @@ Gompertz <- function(x, a=1, b=1, c=1)
 logit <- function(x)
   log( x / (1-x) )
 
+#' @name relu
+#' @title Rectified Linear Unit
+#' @param input vector
+#' @description maps numeric vector using ReLU function
+#' @export
+relu <- function(x)
+  ifelse(x >= 0, x, 0)
+
 #' @name inverse_Gompertz
 #' @title Inverse Gompertz
 #' @param x input vector Gompertz values
