@@ -12,4 +12,3 @@ relu(x)
 \description{
 maps numeric vector using ReLU function
 }
-

@@ -14,4 +14,3 @@ SoftMax(x, lambda = 2)
 \description{
 SoftMax preprocessing
 }
-

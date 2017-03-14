@@ -12,4 +12,3 @@ inverse_Gompertz(x)
 \description{
 maps numeric vector using Gompertz function
 }
-

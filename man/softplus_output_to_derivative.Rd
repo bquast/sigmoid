@@ -12,4 +12,3 @@ softplus_output_to_derivative(x)
 \description{
 Convert output of SoftPlus function to its derivative.
 }
-

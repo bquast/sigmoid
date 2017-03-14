@@ -18,4 +18,3 @@ Gompertz(x, a = 1, b = 1, c = 1)
 \description{
 maps numeric vector using Gompertz function
 }
-

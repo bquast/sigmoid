@@ -40,4 +40,3 @@ hist( a - sigmoid(b, inverse=TRUE) )
 # show difference
 hist(b-c)
 }
-

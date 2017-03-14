@@ -12,4 +12,3 @@ tanh_output_to_derivative(x)
 \description{
 Convert output of tanh function to its derivative.
 }
-

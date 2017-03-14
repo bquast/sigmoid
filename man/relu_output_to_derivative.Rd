@@ -12,4 +12,3 @@ relu_output_to_derivative(x)
 \description{
 Converts output of ReLU function to its derivative.
 }
-

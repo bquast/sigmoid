@@ -13,4 +13,3 @@ softplus(x)
 \description{
 maps numeric input vector using SoftPlus function
 }
-

@@ -12,4 +12,3 @@ sigmoid_output_to_derivative(x)
 \description{
 Convert output of sigmoid function to its derivative.
 }
-

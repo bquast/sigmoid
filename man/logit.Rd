@@ -12,4 +12,3 @@ logit(x)
 \description{
 maps numeric vector using logit function
 }
-

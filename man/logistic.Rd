@@ -16,4 +16,3 @@ logistic(x, k = 1, x0 = 0)
 \description{
 maps numeric vector using logistic function
 }
-

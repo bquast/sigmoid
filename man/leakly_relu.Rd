@@ -13,4 +13,3 @@ relu_leaky(x)
 \description{
 maps numeric vector using leaky ReLU function
 }
-
