@@ -1,7 +1,6 @@
 ## Test environments
-* local OS X install, R 3.3.1
-* fedora 24 server, R 3.3.1
-* ubuntu 12.04 (on travis-ci), R 3.3.1
+* local arch linux R 3.3.3
+* ubuntu 12.04 (on travis-ci), R 3.3.3
 * win-builder (devel and release)
 
 * DONE
