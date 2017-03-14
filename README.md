@@ -2,7 +2,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 sigmoid
 =======
-
 [![License](http://img.shields.io/badge/license-GPLv3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
 [![CRAN Version](http://www.r-pkg.org/badges/version/sigmoid)](https://cran.r-project.org/package=sigmoid)
 [![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
@@ -86,7 +85,7 @@ ggplot(df, aes(input, logistic(input))) + geom_line() +
   geom_line(aes(input,Gompertz(input)), colour='red')
 ```
 
-![](README-sigmoid-shape-1.png)
+![](inst/doc/sigmoid-shape-1.png)
 
 For inverses, additional parameters, SoftMax, etc. see the vignette.
 
