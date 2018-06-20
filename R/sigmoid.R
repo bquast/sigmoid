@@ -26,7 +26,7 @@
 #' # show difference
 #' hist(b-c)
 
-sigmoid <- function(x, method=c('logistic', 'Gompertz', 'tanh'), inverse=FALSE, SoftMax=FALSE, ...) {
+sigmoid <- function(x, method=c('logistic', 'Gompertz', 'tanh', 'ReLU', 'leakyReLU'), inverse=FALSE, SoftMax=FALSE, ...) {
   #  find method
   method <- match.arg(method)
   
@@ -43,6 +43,10 @@ sigmoid <- function(x, method=c('logistic', 'Gompertz', 'tanh'), inverse=FALSE, 
     return ( logit(x) )
   } else if (method=='Gompertz' && inverse==TRUE) {
     return( inverse_Gompertz(x) )
+  } else if (method=='ReLU' && inverse==FALSE) {
+    return ( relu(x) )
+  } else if (method=='leakyReLU' && inverse==FALSE) {
+    return ( leakyrelu(x) )
   }
   
 }
@@ -84,12 +88,12 @@ logit <- function(x)
 relu <- function(x)
   ifelse(x >= 0, x, 0)
 
-#' @name leakly_relu
+#' @name leakyrelu
 #' @title Leaky Rectified Linear Unit
 #' @param x input vector
 #' @description maps numeric vector using leaky ReLU function
 #' @export
-relu_leaky <- function(x)
+leakyrelu <- function(x)
   ifelse(x >= 0, x, 0.01*x)
 
 #' @name SoftPlus

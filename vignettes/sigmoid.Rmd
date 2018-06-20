@@ -25,6 +25,8 @@ sigmoid( matrix(-3:5,nrow=3) ) # etc.
 
 The `sigmoid()` function is a wrapper, which by default uses the `logistic()` function, it can also use other methods.
 
+## Gompertz
+
 ```{r}
 sigmoid( -5:5, method='Gompertz' )
 ```
@@ -32,9 +34,24 @@ sigmoid( -5:5, method='Gompertz' )
 These functions can also be accessed directly.
 
 ```{r}
-logistic(1:5)
 Gompertz(-1:-5)
 ```
+
+## Rectified Linear Unit (ReLU)
+
+Rectified Linear Unit (ReLU)
+
+```{r}
+sigmoid( -5:5, method='ReLU')
+```
+
+Leaky Rectified Linear Unit
+
+```{r}
+sigmoid( -5:5, method="leakyReLU")
+```
+
+## Mappings
 
 These mappings are similar but not identical.
 
@@ -48,6 +65,8 @@ df = data.frame(input, logistic(input), Gompertz(input))
 ggplot(df, aes(input, logistic(input))) + geom_line() +
   geom_line(aes(input,Gompertz(input)), colour='red')
 ```
+
+## Inverse
 
 The wrapper can also apply the inverse of the method, returning the original values.
 
