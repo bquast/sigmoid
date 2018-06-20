@@ -1,6 +1,6 @@
 ## Test environments
-* local arch linux R 3.3.3
-* ubuntu 12.04 (on travis-ci), R 3.3.3
+* local arch linux R 3.5.0
+* ubuntu 12.04 (on travis-ci), R 3.5.0
 * win-builder (devel and release)
 
 * DONE
