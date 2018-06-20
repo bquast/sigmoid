@@ -1,3 +1,14 @@
+sigmoid 0.3.0
+==================
+
+* add Rectified Linear Unit (ReLU)
+
+* add leaky Rectified Linear Unit (leaky ReLU)
+
+* redo documentation
+
+
+
 sigmoid 0.2.0
 ==================
 
