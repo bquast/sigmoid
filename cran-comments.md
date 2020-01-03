@@ -1,14 +1,15 @@
 ## Test environments
-* local arch linux R 3.5.0
-* ubuntu 12.04 (on travis-ci), R 3.5.0
-* win-builder (devel and release)
+* local Arch Linux R 3.6.2
+* Ubuntu 12.04 (on travis-ci), R 3.6.2
+* Windows 10 R 3.6.2
+* win-builder dev
 
-* DONE
+── R CMD check results ────────────────────────────────────── sigmoid 1.2.0 ────
+Duration: 16.8s
 
-Status: OK
+0 errors ✓ | 0 warnings ✓ | 0 notes ✓
 
-R CMD check results
-0 errors | 0 warnings | 0 notes
+R CMD check succeeded
 
 and on win-builder:
 
