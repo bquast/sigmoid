@@ -4,8 +4,13 @@
 \alias{sigmoid}
 \title{Sigmoid}
 \usage{
-sigmoid(x, method = c("logistic", "Gompertz", "tanh", "ReLU", "leakyReLU"),
-  inverse = FALSE, SoftMax = FALSE, ...)
+sigmoid(
+  x,
+  method = c("logistic", "Gompertz", "tanh", "ReLU", "leakyReLU"),
+  inverse = FALSE,
+  SoftMax = FALSE,
+  ...
+)
 }
 \arguments{
 \item{x}{numeric vector}
