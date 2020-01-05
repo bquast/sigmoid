@@ -11,6 +11,10 @@ sigmoid
 
 Several different sigmoid functions are implemented, including a wrapper function, SoftMax preprocessing and inverse functions.
 
+Demonstration
+---------------
+![sigmoid demonstration](/man/figures/sigmoid.gif)
+
 Installation
 ------------
 
