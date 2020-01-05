@@ -20,10 +20,14 @@ sigmoid
 [![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
 [![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
 [![Travis-CI Build Status](https://travis-ci.org/bquast/sigmoid.svg?branch=master)](https://travis-ci.org/bquast/sigmoid)
-[![Coverage Status](https://img.shields.io/coveralls/bquast/sigmoid.svg)](https://coveralls.io/r/bquast/sigmoid?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/bquast/sigmoid/badge.svg?branch=master)](https://coveralls.io/github/bquast/sigmoid?branch=master)
 -->
 
 Several different sigmoid functions are implemented, including a wrapper function, SoftMax preprocessing and inverse functions.
+
+Demonstration
+---------------
+![sigmoid demonstration](/man/figures/sigmoid.gif)
 
 Installation
 ------------
