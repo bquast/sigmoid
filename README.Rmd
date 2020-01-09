@@ -25,7 +25,7 @@ Several different sigmoid functions are implemented, including a wrapper functio
 
 Demonstration
 ---------------
-![sigmoid demonstration](/man/figures/sigmoid.gif)
+![sigmoid demonstration](https://github.com/bquast/R-demo-GIFs/blob/master/sigmoid.gif)
 
 Installation
 ------------
