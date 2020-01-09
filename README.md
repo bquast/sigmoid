@@ -14,7 +14,7 @@ Several different sigmoid functions are implemented, including a wrapper
 function, SoftMax preprocessing and inverse functions.
 
 ## Demonstration
-![sigmoid demonstration](https://github.com/bquast/blob/master/sigmoid.gif)
+![sigmoid demonstration](https://github.com/bquast/R-demo-GIFs/blob/master/sigmoid.gif)
 
 ## Installation
 
