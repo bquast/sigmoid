@@ -30,8 +30,8 @@ installed from [GitHub](http://github.com/bquast/sigmoid) using the
 `devtools` package.
 
 ``` r
-if (!require('devtools')) install.packages('devtools')
-devtools::install_github('bquast/sigmoid')
+if (!require('remotes')) install.packages('remotes')
+remotes::install_github('bquast/sigmoid')
 ```
 
 ## Usage
