@@ -5,10 +5,10 @@
 
 [![License](http://img.shields.io/badge/license-GPLv3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
 [![CRAN Version](http://www.r-pkg.org/badges/version/sigmoid)](https://cran.r-project.org/package=sigmoid)
+[![R build status](https://github.com/bquast/sigmoid/workflows/R-CMD-check/badge.svg)](https://github.com/bquast/sigmoid/actions?workflow=R-CMD-check)
+[![Coverage Status](https://img.shields.io/codecov/c/github/bquast/sigmoid/master.svg)](https://codecov.io/bquast/sigmoid/sigmoid?branch=master)
 [![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
 [![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
-[![Travis-CI Build Status](https://travis-ci.org/bquast/sigmoid.svg?branch=master)](https://travis-ci.org/bquast/sigmoid)
-[![Coverage Status](https://coveralls.io/repos/github/bquast/sigmoid/badge.svg?branch=master)](https://coveralls.io/github/bquast/sigmoid?branch=master)
 
 Several different sigmoid functions are implemented, including a wrapper
 function, SoftMax preprocessing and inverse functions.
@@ -115,9 +115,9 @@ news(package='sigmoid')
 ```
 
 There is a dedicated website with information hosted on my [personal
-website](http://qua.st/).
+website](https://qua.st/).
 
-<http://qua.st/sigmoid>
+<https://qua.st/sigmoid>
 
 ## Development
 
