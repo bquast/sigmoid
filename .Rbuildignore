@@ -1,6 +1,6 @@
 ^.*\.Rproj$
+^.*\.github$
 ^\.Rproj\.user$
 ^cran-comments\.md$
-^\.travis\.yml$
 ^README\.Rmd$
 ^README-.*\.png$
