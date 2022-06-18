@@ -20,8 +20,5 @@ R CMD check succeeded
 
 and on win-builder:
 
-Possibly mis-spelled words in DESCRIPTION:
-  Sigmoid (2:8)
-  SoftMax (5:97)
-  preprocessing (5:105)
-  sigmoid (5:32)
+* DONE
+Status: OK
