@@ -3,12 +3,12 @@
 
 # sigmoid
 
-[![License](http://img.shields.io/badge/license-GPLv3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+[![License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
 [![CRAN Version](http://www.r-pkg.org/badges/version/sigmoid)](https://cran.r-project.org/package=sigmoid)
 [![R build status](https://github.com/bquast/sigmoid/workflows/R-CMD-check/badge.svg)](https://github.com/bquast/sigmoid/actions?workflow=R-CMD-check)
-[![Coverage Status](https://img.shields.io/codecov/c/github/bquast/sigmoid/master.svg)](https://codecov.io/bquast/sigmoid/sigmoid?branch=master)
-[![Total RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/grand-total/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
-[![RStudio Cloud Downloads](http://cranlogs.r-pkg.org/badges/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
+[![Coverage Status](https://img.shields.io/codecov/c/github/bquast/sigmoid/master.svg)](https://about.codecov.io/bquast/sigmoid/sigmoid?branch=master)
+[![Total RStudio Cloud Downloads](https://cranlogs.r-pkg.org/badges/grand-total/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
+[![RStudio Cloud Downloads](https://cranlogs.r-pkg.org/badges/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
 
 Several different sigmoid functions are implemented, including a wrapper
 function, SoftMax preprocessing and inverse functions.
@@ -123,7 +123,7 @@ website](https://qua.st/).
 
 Development takes place on the GitHub page.
 
-<http://github.com/bquast/sigmoid>
+<https://github.com/bquast/sigmoid>
 
 Bugs can be filed on the issues page on GitHub.
 
