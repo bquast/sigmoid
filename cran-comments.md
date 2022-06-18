@@ -1,13 +1,20 @@
-## Test environments
-* local Arch Linux R 3.6.2
-* Ubuntu 12.04 (on travis-ci), R 3.6.2
-* Windows 10 R 3.6.2
-* win-builder dev
+# Test environments
+- local Windows 10 install, R 4.2.0
+- local Linux (Arch) install, R 4.2.0
+- local MacOS install, R 4.1.2
+- GitHub Actions
+   - Windows Server, R release
+   - MacOS, R release
+   - MacOS, R dev
+   - Ubuntu, R release
+- win-builder
+   - devel
+   - release
 
-── R CMD check results ────────────────────────────────────── sigmoid 1.2.0 ────
-Duration: 16.8s
+── R CMD check results ─────────────────────────────────────────────────────────────────────────────── sigmoid 1.4.0 ────
+Duration: 19.3s
 
-0 errors ✓ | 0 warnings ✓ | 0 notes ✓
+0 errors ✔ | 0 warnings ✔ | 0 notes ✔
 
 R CMD check succeeded
 
