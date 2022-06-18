@@ -3,8 +3,8 @@
 
 # sigmoid
 
-[![License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
-[![CRAN Version](http://www.r-pkg.org/badges/version/sigmoid)](https://cran.r-project.org/package=sigmoid)
+[![License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![CRAN Version](https://www.r-pkg.org/badges/version/sigmoid)](https://cran.r-project.org/package=sigmoid)
 [![R build status](https://github.com/bquast/sigmoid/workflows/R-CMD-check/badge.svg)](https://github.com/bquast/sigmoid/actions?workflow=R-CMD-check)
 [![Coverage Status](https://img.shields.io/codecov/c/github/bquast/sigmoid/master.svg)](https://about.codecov.io/bquast/sigmoid/sigmoid?branch=master)
 [![Total RStudio Cloud Downloads](https://cranlogs.r-pkg.org/badges/grand-total/sigmoid?color=brightgreen)](https://cran.r-project.org/package=sigmoid)
@@ -26,8 +26,8 @@ install.packages('sigmoid')
 ```
 
 The **development** version, to be used **at your peril**, can be
-installed from [GitHub](http://github.com/bquast/sigmoid) using the
-`devtools` package.
+installed from [GitHub](https://github.com/bquast/sigmoid) using the
+`remotes` package.
 
 ``` r
 if (!require('remotes')) install.packages('remotes')
