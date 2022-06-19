@@ -1,7 +1,8 @@
 # Test environments
+
 - local Windows 10 install, R 4.2.0
 - local Linux (Arch) install, R 4.2.0
-- local MacOS install, R 4.1.2
+- local macOS install, R 4.2.0
 - GitHub Actions
    - Windows Server, R release
    - MacOS, R release
@@ -11,12 +12,18 @@
    - devel
    - release
 
+
+# R CMD check
+
 ── R CMD check results ─────────────────────────────────────────────────────────────────────────────── sigmoid 1.4.0 ────
 Duration: 19.3s
 
 0 errors ✔ | 0 warnings ✔ | 0 notes ✔
 
 R CMD check succeeded
+
+
+# win-builder
 
 and on win-builder:
 
