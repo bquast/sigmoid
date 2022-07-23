@@ -1,3 +1,9 @@
+sigmoid 1.8.0
+==================
+
+* redo documentation
+
+
 sigmoid 0.3.0
 ==================
 
