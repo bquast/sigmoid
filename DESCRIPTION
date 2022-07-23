@@ -1,14 +1,16 @@
 Package: sigmoid
 Title: Sigmoid Functions for Machine Learning
-Version: 1.4.0
-Authors@R: person("Bastiaan", "Quast", email = "bquast@gmail.com", role = c("aut", "cre"), comment=c(ORCID="0000-0002-2951-3577") 
+Version: 1.8.0
+Authors@R: 
+    person("Bastiaan", "Quast", , "bquast@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2951-3577"))
 Description: Several different sigmoid functions are implemented, including a wrapper function, SoftMax preprocessing and inverse functions.
 Depends:
     R (>= 3.2.2)
 Encoding: UTF-8
 License: GPL-3
 LazyData: true
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.1
 Suggests: covr,
     knitr,
     rmarkdown,
