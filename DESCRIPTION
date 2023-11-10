@@ -8,6 +8,7 @@ Description: Several different sigmoid functions are implemented, including a wr
 Depends:
     R (>= 3.2.2),
     attention
+    transformer
 Encoding: UTF-8
 License: GPL-3
 LazyData: true
