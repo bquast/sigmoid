@@ -114,11 +114,6 @@ An overview of the changes is available in the NEWS file.
 news(package='sigmoid')
 ```
 
-There is a dedicated website with information hosted on my [personal
-website](https://qua.st/).
-
-<https://qua.st/sigmoid>
-
 ## Development
 
 Development takes place on the GitHub page.
