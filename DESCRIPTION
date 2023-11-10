@@ -7,7 +7,7 @@ Authors@R:
 Description: Several different sigmoid functions are implemented, including a wrapper function, SoftMax preprocessing and inverse functions.
 Depends:
     R (>= 3.2.2),
-    attention
+    attention,
     transformer
 Encoding: UTF-8
 License: GPL-3
